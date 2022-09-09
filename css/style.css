@@ -1,0 +1,168 @@
+:root{
+--f7-theme-color:#0A2733;
+--f7-navbar-bg-color: #0A2733; /*navbar*/
+--f7-navbar-text-color:#fff;
+--f7-navbar-link-color:#fff; /*link navbar*/
+--f7-bars-bg-color:#007042;/*toolbar*/
+--f7-block-margin-vertical:20px;
+--f7-card-footer-border-color:transparent; 
+--color-gris:#8f8f8f;
+--color-negro:#000;
+}
+body{
+	font-weight: 400;
+	color: var(--color-negro);
+	font-size: 15px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: 400;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+p{
+	margin: 1px;
+}
+
+#categoris{
+	margin-top: 100px;
+}
+
+
+.categorias{
+	background-color: #0A2733;
+	text-align: center;
+}
+
+.categorias h2{
+	color: #fff;
+}
+
+.categorias .material-icons{
+	color: #fff;
+	font-size: 50px;
+}
+
+
+.img-fluid{
+	text-align: center;
+	
+}
+
+.page-content{
+	background-color: #FFFFFF;
+}
+
+.page img{
+	text-align: center;
+}
+
+
+.block-title{
+	color: var(--color-negro);
+	font-size: 18px;
+	font-weight: 600;
+	overflow: inherit;
+}
+.letra-link-title{
+	font-size: 80%;
+}
+.letra-link-title span{
+	font-size: 85%;
+}
+
+
+.texto-inicial{
+	color: var(--f7-theme-color);
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 1.3;
+}
+
+
+.banner-inicio{
+	background-color: var(--f7-theme-color);
+	color: #fff;
+	padding: 10px 10px 0;
+	border-radius: 15px;
+	margin-top: 30px;
+	position: relative;
+}
+.banner-inicio h2{
+	font-size: 20px;
+	font-weight: 600;
+}
+.banner-inicio .precio{
+	background-color: #8f8f8f;
+	color: #fff;
+	font-weight: 400;
+	padding: 7px 20px;
+	display: inline-block;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	margin-left: 10px;
+	position: absolute;
+	bottom: 0;
+}
+
+.info-menu{
+	background-color: var(--f7-theme-color);
+	padding: 15px 10px;
+	color: rgba(255,255,255,0.80);
+	font-size: 12px;
+}
+.info-menu .block-title{
+	margin-top: 0;
+}
+.info-menu .icon-usuario{
+	font-size:50px;
+	color: #fff;
+}
+.info-menu .nombre{
+	color: #fff;
+	font-weight: 800;
+}
+.button-perfil{
+	background-color: #fff;
+	color: #000;
+	margin-top: 20px;
+	text-align: left;
+	padding-left: 30px;
+	text-transform: inherit;
+	letter-spacing: 0;
+	font-weight: 600;
+}
+.button-perfil span{
+	font-size: 14px;
+	margin-right: 5px;
+}
+
+.panel-left{
+	background-color: #f2f2f2;
+}
+.panel-left .block-title{
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #888;
+}
+.panel-left .list ul{
+	font-size: 14px;
+	background-color: #f2f2f2;
+}
+.panel-left .list .item-media{
+	color: var(--f7-theme-color) !important;
+}
+
+
+
+.settings{
+	text-align: center;
+	border-radius: 100%;
+}
+
+
+
+
+
+
+
+
