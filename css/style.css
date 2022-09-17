@@ -37,6 +37,11 @@ p{
 	color: #fff;
 }
 
+.categorias p{
+	color: #fff;
+    font-size: 10px;
+}
+
 .categorias .material-icons{
 	color: #fff;
 	font-size: 50px;
@@ -159,10 +164,50 @@ p{
 	border-radius: 100%;
 }
 
+.sign-up{
+	z-index: 12000;
+}
 
+.image-center{
+	text-align: center;
+}
 
+#pizzeria{
+	margin-top: 30px;
+}
 
+.location-title{
+	color: var(--color-negro);
+	font-size: 18px;
+	font-weight: 600;
+	overflow: inherit;
+	
+}
 
+.pizza-title{
+	color: var(--color-negro);
+	font-size: 25px;
+	font-weight: 600;
+	overflow: inherit;
+	text-align: center;
+}
 
+.minutes{
+	color: var(--color-negro);
+	font-size: 15px;
+	font-weight: 600;
+	overflow: inherit;
+}
 
+.image-center .material-icons{
+	text-align: center;
+    font-size: 200px;
+}
 
+.change{
+    text-align: center;
+}
+
+.button-contacts{
+    margin-top: 50px;
+}

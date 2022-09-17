@@ -19,9 +19,34 @@ var app = new Framework7({
     	name: 'home',
   		},
 		{
+		path: '/sign-up/',
+    	url: 'sign-up.html',
+    	name: 'sign-up',
+  		},
+		{
 		path: '/contactos/',
     	url: 'contactos.html',
     	name: 'contactos',
+  		},
+		{
+		path: '/lugares/',
+    	url: 'lugares.html',
+    	name: 'lugares',
+  		},
+		{
+		path: '/lugar-pizza/',
+    	url: 'lugar-pizza.html',
+    	name: 'lugar-pizza',
+  		},
+		{
+		path: '/my-space/',
+    	url: 'my-space.html',
+    	name: 'my-space',
+  		},
+		{
+		path: '/about-us/',
+    	url: 'about-us.html',
+    	name: 'about-us',
   		}
 	],
 	dialog: {
